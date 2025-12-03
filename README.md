@@ -1,4 +1,4 @@
-# Research-on-Automata-State-Minimization-Methods-and-a-Comparison-with-Hopcroft-s-Algorithm
+# Research-on-Automata-State-Minimization-Methods-and-Comparison-with-Hopcroft-Algorithm
 # Project Structures
 ```plaintext
 DFA-Minimization-Research/
@@ -17,16 +17,13 @@ DFA-Minimization-Research/
 │   ├── gui/                 
 │   │   ├── app.py           
 │   │   └── static/          
-│   │
-│   └── generator/           
-│       └── generate_dfa
+│   │         
+│   ├── generate_dfa
 │
 ├── tests/                   
-│   ├── correctness/         # Test tính đúng đắn (DFA nhỏ)
-│   │   ├── test_case_01.json
-│   │   └── expected_01.json
-│   └── stress/              # Test hiệu năng (DFA lớn)
-│       └── large_dfa_1000.json
+│   ├── test_case_01.json
+│   ├── expected_01.json
+│   └── large_dfa_1000.json
 │
 ├── experiments/             
 │   ├── raw_data/            
