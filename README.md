@@ -15,8 +15,7 @@ DFA-Minimization-Research/
 │   │   └── utils      
 │   │
 │   ├── gui/                 
-│   │   ├── app.py           
-│   │   └── static/          
+│   │   ├── app.py                    
 │   │         
 │   ├── generate_dfa
 │
