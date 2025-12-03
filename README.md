@@ -1,5 +1,6 @@
 # Research-on-Automata-State-Minimization-Methods-and-a-Comparison-with-Hopcroft-s-Algorithm
 # Project Structures
+```plaintext
 DFA-Minimization-Research/
 ├── .gitignore               
 ├── README.md                
@@ -36,3 +37,4 @@ DFA-Minimization-Research/
 │   │   ├── time_comparison.png
 │   │   └── memory_usage.png
 │   └── analysis_script.py   # Script Python để vẽ biểu đồ từ CSV
+```
