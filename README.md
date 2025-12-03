@@ -1,0 +1,1 @@
+# Research-on-Automata-State-Minimization-Methods-and-a-Comparison-with-Hopcroft-s-Algorithm
