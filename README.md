@@ -3,8 +3,7 @@
 ```plaintext
 DFA-Minimization-Research/
 ├── .gitignore               
-├── README.md                
-├── LICENSE                  
+├── README.md                                
 ├── requirements.txt        
 │
 ├── src/                     
@@ -17,7 +16,7 @@ DFA-Minimization-Research/
 │   ├── gui/                 
 │   │   ├── app.py                    
 │   │         
-│   ├── generate_dfa
+│   └── generate_dfa
 │
 ├── tests/                   
 │   ├── test_case_01.json
