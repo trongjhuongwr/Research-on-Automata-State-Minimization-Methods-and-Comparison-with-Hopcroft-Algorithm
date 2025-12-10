@@ -1,0 +1,47 @@
+[
+    {
+        "is_end": false,
+        "is_start": true,
+        "state_name": "{A,B}",
+        "transitions": [
+            {
+                "input": "0",
+                "target_state": "{A,B}"
+            },
+            {
+                "input": "1",
+                "target_state": "{C,D,E}"
+            }
+        ]
+    },
+    {
+        "is_end": true,
+        "is_start": false,
+        "state_name": "{C,D,E}",
+        "transitions": [
+            {
+                "input": "0",
+                "target_state": "{C,D,E}"
+            },
+            {
+                "input": "1",
+                "target_state": "{F}"
+            }
+        ]
+    },
+    {
+        "is_end": false,
+        "is_start": false,
+        "state_name": "{F}",
+        "transitions": [
+            {
+                "input": "0",
+                "target_state": "{F}"
+            },
+            {
+                "input": "1",
+                "target_state": "{F}"
+            }
+        ]
+    }
+]
