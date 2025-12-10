@@ -1,0 +1,51 @@
+# --- Compiled Object files (File biên dịch trung gian) ---
+*.o
+*.obj
+*.res
+
+# --- Executables (File chạy .exe) ---
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# --- Build Directories (Thư mục build) ---
+# Nơi chứa các file được sinh ra khi compile (nên ignore)
+build/
+bin/
+obj/
+debug/
+release/
+x64/
+x86/
+
+# --- IDE & Editor Configuration (Cấu hình máy cá nhân) ---
+# VS Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.opensdf
+*.sdf
+
+# CLion / CMake
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+
+# --- OS System Files (File rác của hệ điều hành) ---
+.DS_Store
+Thumbs.db
+
+
+# --- Dependency ---
+# Nếu bạn dùng thư viện ngoài nhưng không muốn up lên (tùy chọn)
+# *.lib
+# *.a
