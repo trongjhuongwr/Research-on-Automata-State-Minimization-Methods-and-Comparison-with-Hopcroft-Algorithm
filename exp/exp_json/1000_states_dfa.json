@@ -1,6 +1,4 @@
-{
-  "expanded_dfa": 
-  [
+[
     {
       "state_name": "A0",
       "transitions": [
@@ -23002,4 +23000,3 @@
       "is_end": true
     }
   ]
-}

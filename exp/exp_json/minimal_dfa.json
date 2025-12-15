@@ -1,6 +1,4 @@
-{
-  "dfa_minimal": 
-  [
+[
     {
       "state_name": "A0",
       "transitions": [
@@ -117,4 +115,3 @@
       "is_end": true
     }
   ]
-}
