@@ -6,19 +6,19 @@
       "transitions": [
         {
           "input": "0",
-          "target_state": "S3"
+          "target_state": "S2"
         },
         {
           "input": "1",
-          "target_state": "S0"
+          "target_state": "S1"
         },
         {
           "input": "2",
-          "target_state": "S3"
+          "target_state": "S4"
         },
         {
           "input": "3",
-          "target_state": "S0"
+          "target_state": "S2"
         }
       ],
       "is_start": true,
@@ -33,15 +33,15 @@
         },
         {
           "input": "1",
-          "target_state": "S4"
+          "target_state": "S1"
         },
         {
           "input": "2",
-          "target_state": "S4"
+          "target_state": "S3"
         },
         {
           "input": "3",
-          "target_state": "S3"
+          "target_state": "S4"
         }
       ],
       "is_start": false,
@@ -56,15 +56,15 @@
         },
         {
           "input": "1",
-          "target_state": "S1"
+          "target_state": "S3"
         },
         {
           "input": "2",
-          "target_state": "S2"
+          "target_state": "S0"
         },
         {
           "input": "3",
-          "target_state": "S4"
+          "target_state": "S0"
         }
       ],
       "is_start": false,
@@ -75,19 +75,19 @@
       "transitions": [
         {
           "input": "0",
-          "target_state": "S4"
+          "target_state": "S2"
         },
         {
           "input": "1",
-          "target_state": "S1"
+          "target_state": "S2"
         },
         {
           "input": "2",
-          "target_state": "S1"
+          "target_state": "S0"
         },
         {
           "input": "3",
-          "target_state": "S0"
+          "target_state": "S3"
         }
       ],
       "is_start": false,
@@ -106,11 +106,11 @@
         },
         {
           "input": "2",
-          "target_state": "S4"
+          "target_state": "S0"
         },
         {
           "input": "3",
-          "target_state": "S4"
+          "target_state": "S0"
         }
       ],
       "is_start": false,

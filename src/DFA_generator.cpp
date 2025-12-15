@@ -152,9 +152,6 @@ int main() {
     // 2. Split into nonminimal DFA
     std::vector<int> targets = {1000, 10000, 50000};
     
-    std::ofstream exp_file("expanded_dfas.json");
-    exp_file << "{\n  \"expanded_dfas\": [\n";
-
     for (size_t i = 0; i < targets.size(); ++i) {
         int target = targets[i];
         std::cout << "Dang pha DFA thanh " << target << " states..." << std::endl;
@@ -165,13 +162,16 @@ int main() {
         // Start to split
         expand_dfa(expanded, target);
         
-        // Write into JSON file
-        write_single_dfa_json(exp_file, expanded, (i == targets.size() - 1));
+        // Write into separate JSON file
+        std::string filename = std::to_string(target) + "_states_dfa.json";
+        std::ofstream exp_file(filename);
+        exp_file << "{\n  \"expanded_dfa\": \n";
+        write_single_dfa_json(exp_file, expanded, true);
+        exp_file << "}\n";
+        exp_file.close();
+        std::cout << "-> Da luu: " << filename << std::endl;
     }
 
-    exp_file << "  ]\n}\n";
-    exp_file.close();
-    std::cout << "-> Da luu: expanded_dfas.json" << std::endl;
     std::cout << "Hoan tat!" << std::endl;
 
     return 0;
