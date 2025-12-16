@@ -1,8 +1,3 @@
-// Hướng dẫn biên dịch và chạy:
-// 1. Đảm bảo có file json.hpp trong cùng thư mục.
-// 2. Lệnh biên dịch (ví dụ g++): g++ table_filling.cpp -o app -std=c++17
-// 3. Chạy: ./app input.json
-
 #include <iostream>
 #include <fstream>
 #include <vector>

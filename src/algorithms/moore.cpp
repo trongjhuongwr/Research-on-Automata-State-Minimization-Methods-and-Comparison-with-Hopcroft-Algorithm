@@ -1,10 +1,3 @@
-// Hướng dẫn chạy:
-// 1. Đảm bảo có file json.hpp trong cùng thư mục với file moore.cpp (https://github.com/nlohmann/json/releases/latest/download/json.hpp)
-// 2. Chạy lệnh biên dịch (ví dụ với g++):
-//    g++ moore.cpp -o app -static
-//    .\app.exe input.json
-// 3. Kết quả sẽ được xuất ra file output.json
-
 #include <iostream>
 #include <fstream>
 #include <vector>
