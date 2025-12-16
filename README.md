@@ -5,7 +5,7 @@ Dự án này là sản phẩm thuộc học phần **Ngôn ngữ hình thức**
 ---
 
 ## Thành Viên Nhóm
-| STT | Họ và Tên | MSSV | Vai trò |
+| STT | Họ và Tên | MSSV |
 |:---:|:---|:---|:---|
 | 1 | **Nguyễn Trọng Hưởng** | 31231023691 |
 | 2 | **Nguyễn Ngọc Thiện** | 31231021200 |
