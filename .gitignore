@@ -1,51 +1,40 @@
-# --- Compiled Object files (File biên dịch trung gian) ---
-*.o
-*.obj
-*.res
+# --- 1. Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
 
-# --- Executables (File chạy .exe) ---
+# --- 2. C++ & Build Artifacts ---
+# File thực thi trên Windows
 *.exe
-*.out
-*.app
 *.dll
-*.so
-*.dylib
+*.obj
+*.o
 
-# --- Build Directories (Thư mục build) ---
-# Nơi chứa các file được sinh ra khi compile (nên ignore)
-build/
-bin/
-obj/
-debug/
-release/
-x64/
-x86/
+# Thư mục chứa file exe (nếu muốn ignore cả thư mục)
+# bin/
+# Hoặc chỉ ignore file bên trong nhưng giữ lại thư mục bin:
+bin/*
+!bin/.gitkeep
 
-# --- IDE & Editor Configuration (Cấu hình máy cá nhân) ---
-# VS Code
+# --- 3. Dữ liệu chạy (Data & Temp) ---
+# Ignore file output sinh ra
+data/output.json
+data/temp_input.json
+data/temp_output.json
+data/output_temp.json
+data/input_temp.json
+
+# Giữ lại file input.json mẫu (nếu muốn)
+!data/input.json
+
+# --- 4. Cấu hình IDE (VS Code) ---
 .vscode/
 *.code-workspace
 
-# Visual Studio
-.vs/
-*.user
-*.suo
-*.opensdf
-*.sdf
-
-# CLion / CMake
-cmake-build-debug/
-cmake-build-release/
-CMakeFiles/
-CMakeCache.txt
-*.cmake
-
-# --- OS System Files (File rác của hệ điều hành) ---
+# --- 5. Khác ---
+*.log
 .DS_Store
-Thumbs.db
-
-
-# --- Dependency ---
-# Nếu bạn dùng thư viện ngoài nhưng không muốn up lên (tùy chọn)
-# *.lib
-# *.a
