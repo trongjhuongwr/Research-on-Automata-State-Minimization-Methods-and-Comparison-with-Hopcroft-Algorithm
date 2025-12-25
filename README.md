@@ -63,7 +63,7 @@ g++ src/cpp/table_filling.cpp -o bin/table_filling_solver.exe
 ### Hướng Dẫn Sử Dụng
 Sau khi cài đặt xong, chạy lệnh sau để khởi động Web App:
 ```bash
-streamlit run src/python/app.py
+streamlit run src/gui/app.py
 ```
 
 Trình duyệt sẽ tự động mở ra. Bạn thực hiện theo các bước:
@@ -81,22 +81,37 @@ DFA-Minimization-Research/
 │
 ├── src/                     
 │   ├── algorithms/          
-│   │   ├── table_filling
-│   │   ├── moore
-│   │   ├── hopcroft
-│   │   └── utils      
+│   │   ├── table_filling.cpp
+│   │   ├── moore.cpp
+│   │   ├── hopcroft.cpp
+│   │   └── json.hpp     
 │   │
 │   ├── gui/                 
-│   │   ├── app.py                    
+│   │   └── app.py                    
 │   │         
-│   └── generate_dfa
+│   └── DFA_generator.cpp
 │
-├── experiments/             
+├── exp/             
 │   ├── raw_data/            
 │   │   ├── benchmark_table_filling.csv
 │   │   ├── benchmark_moore.csv
 │   │   └── benchmark_hopcroft.csv
 │   ├── test               
-│   │   ├── test_case.py
-│   └── evaluation.py   # Script Python để vẽ biểu đồ từ CSV
+│   │   └── test_cases.txt
+│   ├── exp_json/
+|   │   ├── 1000_states_dfa.json
+│   │   ├── 10000_states_dfa.json
+│   │   ├── 50000_states_dfa.json
+│   │   └── minimal_dfa.json
+│   └── evaluation.ipynb
+│
+├── data/         
+│   ├── input.json
+│   ├── temp_input.json
+│   └── temp_output.json
+│   
+└── bin/             
+    ├── hopcroft_solver.exe
+    ├── moore_solver.exe
+    └── table_filling_solver.exe
 ```
